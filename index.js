@@ -3,7 +3,6 @@ let indexValue = 1;
 const img = document.querySelectorAll("img")
 const sliders = document.querySelectorAll(".btm-slider span")
 
-console.log(sliders)
 
 const btmSlide = (e) =>{
   return   showing(indexValue = e)
